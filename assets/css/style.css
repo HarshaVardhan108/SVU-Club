@@ -812,10 +812,9 @@ video {
   }
 }
 
-
 .play-button {
   position: absolute;
-  top: 50%;
+  top: 44%;
   left: 45%;
   transform: translate(-50%, -50%);
   width: 80px;
@@ -829,6 +828,20 @@ video {
   color: white;
   font-size: 24px;
   animation: pulse 1.5s infinite;
+}
+@media (max-width:700px) {
+  .play-button{
+    top:40%;
+    left: 44%;
+  }
+  
+}
+@media (max-width:450px) {
+  .play-button{
+    top:39%;
+    left: 40%;
+  }
+  
 }
 
 .counts {
