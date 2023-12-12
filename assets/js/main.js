@@ -1,3 +1,4 @@
+
 (function() {
   "use strict";
 
@@ -12,11 +13,6 @@
       return document.querySelector(el)
     }
   }
-
-    /*Transition effect*/
-    window.addEventListener('load', function() {
-      document.body.classList.add('loaded');
-    });
 
   /**
    * Easy event listener function
@@ -174,7 +170,6 @@
     }
 
   });
-
 
   /**
    * Initiate portfolio lightbox 
