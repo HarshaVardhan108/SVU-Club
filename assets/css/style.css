@@ -462,7 +462,7 @@ h6 {
 }
 
 .scale-up-element {
-  transform: scale(0);
+  transform: scale(1);
   transition: transform 0.5s ease-in-out;
 }
 
